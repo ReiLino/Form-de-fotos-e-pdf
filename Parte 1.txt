@@ -1,0 +1,31 @@
+A)
+
+file_uploads=On
+
+upload_tmp_dir="C:\xampp\tmp"
+
+upload_max_filesize=40M
+
+post_max_size=?
+
+max_input_time=?
+
+
+B)
+
+A função is_uploaded_file() verifica se o arquivo especificado é um arquivo enviado via HTTP POST. Se o arquivo foi enviado via POST, a função retorna true, caso contrário, retorna false.
+
+A função move_uploaded_file() é usada para mover o arquivo enviado para um local desejado no servidor. Ela aceita dois parâmetros: o nome temporário do arquivo enviado (que é gerado pelo PHP quando o arquivo é carregado) e o nome do arquivo e diretório onde o arquivo deve ser movido. Se a função for bem-sucedida, ela retornará true, caso contrário, retornará false
+
+
+C)
+
+A tag <input type="hidden"> é uma tag HTML que define um campo de entrada oculto em um formulário. Ela é usada para enviar dados do lado do cliente para o lado do servidor sem que o usuário perceba ou interaja com ele.
+
+
+D)
+
+Para filtrar as extensões de arquivo que serão aceitas para upload em um programa PHP, você pode usar a variável $_FILES do PHP, que contém informações sobre o arquivo enviado por meio de um formulário.
+
+
+
