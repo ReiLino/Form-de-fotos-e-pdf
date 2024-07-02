@@ -4,4 +4,4 @@ Reinaldo Lino
 
 Matheus Oliveira
 
-Pedro Eduardo
+Vitor Lucca
